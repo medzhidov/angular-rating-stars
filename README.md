@@ -26,5 +26,15 @@ And you can use my module!
   <div ng-stars="SCOPE_VAR" ng-stars-max="10"></div>
 ```
 
+####Example with callback function on first rating change
+```html
+  <div ng-stars="SCOPE_VAR" ng-stars-max="10"></div>
+```
+
+####Example with callback function on every rating change
+```html
+  <div ng-stars="SCOPE_VAR" ng-stars-max="10"></div>
+```
+
 
 ((All this examples you can find in index.html))
