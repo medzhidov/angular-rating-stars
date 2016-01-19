@@ -27,13 +27,15 @@ And you can use my module!
 ```
 
 ####Example with callback function on first rating change
+**IMPORTANT:** Callback-function must return "TRUE" or "FALSE". If function return true - callback works every change. If return false - callback works only once.
 ```html
-  <div ng-stars="SCOPE_VAR" ng-stars-max="10"></div>
+  <div ng-stars="SCOPE_VAR" ng-stars-callback="CALLBACK_FUNCTION"></div>
 ```
 
 ####Example with callback function on every rating change
+**IMPORTANT:** Callback-function must return "TRUE" or "FALSE". If function return true - callback works every change. If return false - callback works only once.
 ```html
-  <div ng-stars="SCOPE_VAR" ng-stars-max="10"></div>
+  <div ng-stars="SCOPE_VAR" ng-stars-callback="CALLBACK_FUNCTION"></div>
 ```
 
 
