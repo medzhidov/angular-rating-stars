@@ -52,6 +52,20 @@
 		<div class="stars" ng-stars="ratingValue2" ng-stars-max="10"></div>
 	</section>
 
+	<section>
+		<h3>Callback on change</h3>
+		<p>Rating: {{ratingValue2}}</p>
+		<div class="stars" ng-stars="ratingValue3" ng-stars-callback="callback1"></div>
+		<p>* IMPORTANT: Scope-function must return "TRUE" or "FALSE". If function return true - callback works every change. If return false - callback works only once.</p>
+	</section>
+
+	<section>
+		<h3>Once callback on change</h3>
+		<p>Rating: {{ratingValue2}}</p>
+		<div class="stars" ng-stars="ratingValue4" ng-stars-callback="callback2"></div>
+		<p>* IMPORTANT: Scope-function must return "TRUE" or "FALSE". If function return true - callback works every change. If return false - callback works only once.</p>
+	</section>
+
 	<footer>
 		<a href="https://github.com/dslpp056193">By Ilya Medzhidov</a>
 	</footer>
