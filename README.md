@@ -5,7 +5,7 @@ Very nice rating plugin with stars.
 
 Begin add to your app font-awesome styles.
 
-(**"_icons.fontawesome.min.css"** and folder **"fonts-icons"**)
+(file **"_icons.fontawesome.min.css"** and folder **"fonts-icons"**)
 
 Next include **"ngStars"** directive from **"js/angular-app.js"**
 
